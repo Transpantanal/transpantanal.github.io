@@ -1,0 +1,46 @@
+<html lang="en" ng-app="appTranspantanal">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Transpantanal</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body class="ng-cloak">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#/">Transpantanal</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="#/">Sobre nós</a></li>
+            <li><a href="#/excursoes">Excursões</a></li>
+            <li><a href="#/contato">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div ng-view></div>
+    <div class="container">
+      <hr>
+      <footer>
+        <div class="row">
+          <div class="col-lg-12"><p><strong>Transpantanal</strong> - (47) 3374-1154 / (47) 9653-0236 / (47) 9900-4358</p></div>
+        </div>
+      </footer>
+    </div>
+    <script src="angularjs/js/angular.min.js"></script>
+    <script src="angularjs/js/angular-route.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

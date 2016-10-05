@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="yellow">Excursões</h2>
+      <hr>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4 col-lg-4 col-md-4" ng-repeat="obj in todo">
+      <div class="thumbnail">
+        <img ng-src="banners/{{obj.image}}" class="banner-main" alt="...">
+        <div class="caption text-center">
+          <h1>{{obj.name}}</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

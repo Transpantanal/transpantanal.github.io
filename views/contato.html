@@ -1,0 +1,66 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="yellow">Contato</h2>
+      <hr>
+      <div class="row">
+        <div class="col-sm-12 contact-info">
+          <p><strong>Email</strong>: adm@transpantanal.net.br ou comercial@transpantanal.net.br</p>
+          <p><strong>Telefone</strong>: (47) 3374-1154</p>
+          <p><strong>Whatsapp</strong>: (47) 9653-0236 / (47) 9900-4358</p>
+        </div>
+      </div>
+      <br/>
+      <div class="row">
+        <div class="col-sm-6">
+          <form>
+            <div class="form-group">
+              <div class="input-group">
+                <span class="input-group-addon">
+                  <i class="glyphicon glyphicon-user"></i>
+                </span>
+                <input type="text" class="form-control" placeholder="Nome">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group">
+                <span class="input-group-addon">
+                  <i class="glyphicon glyphicon-envelope"></i>
+                </span>
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group">
+                <span class="input-group-addon">
+                  <i class="glyphicon glyphicon-phone"></i>
+                </span>
+                <input type="text" class="form-control" placeholder="Telefone">
+              </div>
+            </div>
+            <button type="submit" class="btn btn-default">Enviar mensagem</button>
+          </form>
+        </div>
+        <div class="col-sm-6">
+          <textarea class="form-control" rows="6" placeholder="Digite a sua mensagem..."></textarea>
+        </div>
+      </div>
+      <br/>
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="map"></div>
+          <script>
+            function initMap() {
+              var mapDiv = document.getElementById('map');
+              var map = new google.maps.Map(mapDiv, {
+                  center: { lat: -26.4174233, lng: -49.0845512 },
+                  zoom: 13
+              });
+            }
+          </script>
+          <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGHqDT70ne89IMRqk0YC93a2s-fD1VYZA&callback=initMap"></script>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
