@@ -25,11 +25,8 @@ angular.module('appTranspantanal').controller('HomeCtrl', function($rootScope, $
       name: 'Ilha do Mel',
       image: '2.jpg'
    }, {
-      name: 'Gramado e Canela',
-      image: '3.jpg'
-   }, {
-      name: 'Serra do Mar + Morretes',
-      image: '4.jpg'
+      name: 'Cascanéia',
+      image: '5.jpeg'
    }];
 
 });
