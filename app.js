@@ -22,6 +22,9 @@ angular.module('appTranspantanal').controller('HomeCtrl', function($rootScope, $
       name: 'Ilha do Mel',
       image: '2.jpg'
    }, {
+      name: 'Ilha do Mel',
+      image: '7.png'
+   }, {
       name: 'Cascanéia',
       image: '5.jpeg'
    }];
