@@ -19,14 +19,14 @@ angular.module('appTranspantanal').config(function($routeProvider, $locationProv
 angular.module('appTranspantanal').controller('HomeCtrl', function($rootScope, $location){
 
    $rootScope.todo = [{
-      name: 'Ilha do Mel',
-      image: '2.jpg'
+      name: 'Cascanéia',
+      image: '5.jpeg'
    }, {
       name: 'Ilha do Mel',
       image: '7.png'
    }, {
-      name: 'Cascanéia',
-      image: '5.jpeg'
+      name: 'Piratuba',
+      image: '8.png'
    }];
 
 });
