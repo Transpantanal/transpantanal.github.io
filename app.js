@@ -1,17 +1,19 @@
 'use strict';
 
+var v = 1;
+
 angular.module('appTranspantanal', ['ngRoute']);
 
 angular.module('appTranspantanal').config(function($routeProvider, $locationProvider){
 
    $routeProvider.when('/excursoes', {
-      templateUrl: 'views/home.html',
+      templateUrl: 'views/home.html?v=' + v,
       controller: 'HomeCtrl',
    }).when('/', {
-      templateUrl: 'views/sobre.html',
+      templateUrl: 'views/sobre.html?v=' + v,
       controller: 'SobreCtrl',
    }).when('/contato', {
-      templateUrl: 'views/contato.html',
+      templateUrl: 'views/contato.html?v=' + v,
       controller: 'ContatoCtrl',
    }).otherwise ({ redirectTo: '/sobre' });
 });
